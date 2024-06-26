@@ -183,7 +183,7 @@
   onMounted(() => {
     const children = slots.default();
 
-    if (children && children.length > 1) {
+    if (children && children.filter((child) => child?.tag !== undefined).length > 1) {
       return console.error(
         `[Popper]: The <Popper> component expects only one child element at its root. You passed ${children.length} child nodes.`,
       );
