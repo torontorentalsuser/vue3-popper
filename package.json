@@ -20,7 +20,6 @@
   ],
   "main": "dist/popper.ssr.js",
   "browser": "dist/popper.esm.js",
-  "module": "dist/popper.esm.js",
   "unpkg": "dist/popper.min.js",
   "files": [
     "dist/*",
