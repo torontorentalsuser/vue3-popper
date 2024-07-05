@@ -22,14 +22,6 @@
   "browser": "dist/popper.esm.js",
   "module": "dist/popper.esm.js",
   "unpkg": "dist/popper.min.js",
-  "exports": {
-    ".": {
-      "import": "./dist/popper.esm.js",
-      "require": "./dist/popper.ssr.js",
-      "browser": "./dist/popper.esm.js",
-      "default": "./dist/popper.esm.js"
-    }
-  },
   "files": [
     "dist/*",
     "src/**/*.vue",
