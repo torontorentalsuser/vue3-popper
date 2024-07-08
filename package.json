@@ -18,7 +18,7 @@
     "popper-2",
     "vue-3-popper-2"
   ],
-  "main": "dist/popper.cjs",
+  "main": "dist/popper.esm.js",
   "browser": "dist/popper.esm.js",
   "module": "dist/popper.esm.js",
   "unpkg": "dist/popper.min.js",
