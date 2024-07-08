@@ -18,7 +18,7 @@
     "popper-2",
     "vue-3-popper-2"
   ],
-  "main": "dist/popper.esm.js",
+  "main": "dist/popper.ssr.js",
   "browser": "dist/popper.esm.js",
   "module": "dist/popper.esm.js",
   "unpkg": "dist/popper.min.js",
@@ -35,7 +35,7 @@
     "serve:docs": "vitepress serve docs",
     "deploy:docs": "npm run build:docs && npx gh-pages -d docs/.vitepress/dist",
     "build": "cross-env NODE_ENV=production rollup --config build/rollup.config.js",
-    "build:cjs": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format cjs",
+    "build:ssr": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format cjs",
     "build:es": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format es",
     "build:unpkg": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format iife"
   },

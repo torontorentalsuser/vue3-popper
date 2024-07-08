@@ -124,7 +124,7 @@ if (!argv.format || argv.format === "cjs") {
     external,
     output: {
       compact: true,
-      file: "dist/popper.cjs",
+      file: "dist/popper.ssr.js",
       format: "cjs",
       name: "Popper",
       exports: "auto",
